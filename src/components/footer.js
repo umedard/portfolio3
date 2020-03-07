@@ -7,13 +7,11 @@ export default function Footer() {
             <div className={style.footer__wrapper}>
                 <div>
                     <div className={style.footer__messsage}>Say hi!</div>
-                    <div className={style.footer__email}>umedard@gmail.com</div>
+                    <div className={style.footer__email}><a className={style.footer__link} href="mailto:umedard@gmail.com">umedard@gmail.com</a></div>
                 </div>
                 
             </div>
-            
-            <div className={style.footer__copyright}>Footer</div>
-            
+            <div className={style.footer__copyright}>© 2020 Medard Urban</div>
         </footer>
     )
 }

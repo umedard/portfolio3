@@ -1,17 +1,23 @@
 .footer__wrapper {
     display: grid;
     align-items: center;
-    padding: 5.5rem;
+    padding: 5.5rem 0;
     background-image: url("/img/triangle_bottom.png");
     background-position: right bottom;
     background-size: 250px;
     background-repeat: no-repeat;
 }
 
+
 .footer__email {
     line-height: 3rem;
     text-align: center;
     font-family: "source sans pro";
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #2F2F2F;
 }
 
 .footer__messsage {

@@ -10,6 +10,13 @@
 }
 
 
+@media (max-width: 1050px) {
+    .header {
+        background-image: none;
+    }
+}
+
+
 .header__title {
     font-family: "Bree Serif";
     font-size: 5rem;

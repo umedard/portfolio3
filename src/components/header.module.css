@@ -1,0 +1,28 @@
+.header {
+    margin: 0;
+    padding: 0;
+}
+.header__link {
+    color: #33BA9D;
+    font-family: "Bree Serif";
+    text-decoration: none;
+}
+
+.header__title {
+    font-family: "Bree Serif";
+    font-size: 5rem;
+    color: #33BA9D;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header__subtitle {
+    font-family: "Bree Serif";
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+}

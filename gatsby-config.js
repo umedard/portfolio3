@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Medard Urban`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Front-end developer`,
     author: `@medardurban`,
   },
   plugins: [
@@ -21,8 +21,8 @@ module.exports = {
         name: `Medard Urban`,
         short_name: `Medard urban`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#33BA9D`,
+        theme_color: `#33BA9D`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
@@ -31,15 +31,12 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `limelight`,
+          `Bree Serif`,
           `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
         ],
         display: 'swap'
       }
     }
     
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

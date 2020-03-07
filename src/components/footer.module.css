@@ -1,8 +1,29 @@
-.footer {
+.footer__wrapper {
+    display: grid;
+    align-items: center;
+    padding: 5rem;
+    background-image: url("/img/triangle.png");
+    background-position: right bottom;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
 
+.footer__email {
+    line-height: 3rem;
+    text-align: center;
+}
+
+.footer__messsage {
+    line-height: 80px;
+    text-align: center;
+    font-size: 72px;
+    color: #2F2F2F;
+    font-weight: 700;
 }
 
 .footer__copyright {
+    padding: 2rem 1rem;
+    line-height: 1rem;
     background-color: #2F2F2F;
     color: #B4B9C1;
 }

@@ -8,6 +8,7 @@ export default function Skills() {
   return (
     <Layout>
       <SEO title="Skills" />
+      Skills
     </Layout>
   )
 }

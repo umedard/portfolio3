@@ -1,12 +1,10 @@
+/* Website title and headers */
+
 .header {
     margin: 0;
     padding: 0;
 }
-.header__link {
-    color: #33BA9D;
-    font-family: "Bree Serif";
-    text-decoration: none;
-}
+
 
 .header__title {
     font-family: "Bree Serif";
@@ -18,11 +16,24 @@
 
 .header__subtitle {
     font-family: "Bree Serif";
+    font-size: .9rem;
     margin: 0 auto;
     text-align: center;
 }
 
+/* Menu and links */
+
+
 .header__menu {
     display: flex;
-    justify-content: space-around;
+    margin: 2rem auto;
+    padding: 0;
+    justify-content: space-between;
+    max-width: 10rem;
+}
+
+.header__link {
+    color: #33BA9D;
+    font-family: "Bree Serif";
+    text-decoration: none;
 }

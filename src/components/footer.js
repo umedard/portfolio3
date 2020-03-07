@@ -11,7 +11,7 @@ export default function Footer() {
                 </div>
                 
             </div>
-            <div className={style.footer__copyright}>© 2020 Medard Urban</div>
+            <div className={style.footer__copyright}>Copyright © 2020 Medard Urban</div>
         </footer>
     )
 }

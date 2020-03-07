@@ -10,7 +10,8 @@
 
 
 .footer__email {
-    line-height: 3rem;
+    line-height: 4rem;
+    font-size: 1.5rem;
     text-align: center;
     font-family: "source sans pro";
 }
@@ -21,11 +22,18 @@
 }
 
 .footer__messsage {
-    line-height: 80px;
+    line-height: 120px;
     text-align: center;
-    font-size: 72px;
+    font-size: 90px;
     color: #2F2F2F;
     font-weight: 700;
+}
+
+@media (max-width:800px) {
+    .footer__messsage {
+        font-size: 70px;
+        line-height: 80px;
+    }
 }
 
 .footer__copyright {

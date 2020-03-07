@@ -1,0 +1,26 @@
+.bar {
+    width: 100%;
+    background-color: rgba(90, 186, 157, .4);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: -100;
+    margin: .5rem 0;
+}
+
+.bar__text {
+    padding:.2rem;
+    margin: 0;
+    color: white;
+    z-index: 1;
+    
+}
+.bar__indicator {
+    position: absolute;
+    /* width: 50%; */
+    height: 100%;
+    background-color: rgb(90, 186, 157);
+    margin: 0;
+    padding: 0;
+    z-index: -10;
+}

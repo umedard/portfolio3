@@ -16,8 +16,8 @@ export default function PortfolioItem({ picture, title, description, github, url
                 </div>
             </div>
             <div className={style.portfolio__links}>
-                <a className={style.portfolio__github} href={github}>Github</a>
-                <a className={style.portfolio__live} href={github}>Live site</a>
+                <a className={style.portfolio__github} href={github} target="_blank">Github</a>
+                <a className={style.portfolio__live} href={url} target="_blank">Live site</a>
             </div>
         </section>
     )

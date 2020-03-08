@@ -12,7 +12,6 @@ export default function Header() {
         <HeaderLink to="/" title="projects"/>
         <HeaderLink to="/skills" title="skills"/>
       </menu>
-      
     </header>
   )
 }

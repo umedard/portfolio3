@@ -9,9 +9,9 @@ const Index = () => (
   <Layout>
     <SEO title="Projects" />
     <Portfolio>
-       <PortfolioItem picture="/img/emei.png" title="Car company website" description="CSS, vanilla JavaScript" github="" url=""/>
-       <PortfolioItem picture="/img/bristol.png" title="Portfolio website" description="CSS, vanilla JavaScript" github="" url=""/>
-       <PortfolioItem picture="/img/portfolio.png" title="Portfolio website" description="CSS, vanilla JavaScript" github="" url=""/>
+       <PortfolioItem picture="/img/emei.png" title="Car company" description="CSS, vanilla JavaScript, Netlify" github="" url=""/>
+       <PortfolioItem picture="/img/bristol.png" title="Portfolio" description="Gatsby, Module CSS, Netlify" github="" url=""/>
+       <PortfolioItem picture="/img/portfolio.png" title="Electronic company" description="Gatsby, Netlify CMS" github="" url=""/>
     </Portfolio>
   </Layout>
 )

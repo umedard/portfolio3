@@ -18,6 +18,7 @@ export default function Bars() {
         <Bar skill="SASS" percent="70"/>
         <Bar skill="Bootstrap" percent="70"/>
         <Bar percent="80" skill="JavaScript"/>
+        <Bar percent="40" skill="TypeScript"/>
         <Bar skill="ES6" percent="80"/>
         <Bar percent="60" skill="React"/>
         <Bar percent="60" skill="Gatsby"/>

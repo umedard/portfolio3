@@ -22,6 +22,7 @@ export default function Bars() {
         <Bar skill="ES6" percent="80"/>
         <Bar percent="60" skill="React"/>
         <Bar percent="60" skill="Gatsby"/>
+        <Bar percent="40" skill="Vue.js"/>
         <Bar skill="jQuery" percent="50"/>
         <Bar skill="Gulp" percent="80"/>
         <Bar skill="MobX" percent="30"/>

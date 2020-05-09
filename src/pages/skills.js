@@ -26,6 +26,7 @@ export default function Bars() {
         <Bar skill="jQuery" percent="50"/>
         <Bar skill="Gulp" percent="80"/>
         <Bar skill="MobX" percent="30"/>
+    <Bar skill="Redux" percent="60"/>
         <Bar skill="GraphQL" percent="40"/>
         <Bar skill="MySQL" percent="50"/>
         <Bar skill="PHP" percent="40"/>

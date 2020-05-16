@@ -44,6 +44,8 @@ export default function Bars() {
         <Bar percent="50" skill="French"/>
         <Bar percent="65" skill="Russian"/>
         <Bar percent="30" skill="Indonesian"/>
+     <Bar percent="20" skill="Ukrainian"/>
+    <Bar percent="20" skill="Spanish"/>
     </Layout>
   )
 }

@@ -15,7 +15,7 @@ export default function PortfolioItem({
         <div className={style.hover}>
           <div className={style.hover__wrapper}>
             <span className={style.portfolio__description}>
-              Tech stack: {description}
+              {description}
             </span>
           </div>
         </div>
